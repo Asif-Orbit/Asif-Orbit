@@ -8,17 +8,29 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Ensure dist folder exists
+        run: mkdir -p dist
+
+      - name: Generate snake (SVG)
+        # svg-only variant writes SVGs in ./dist by default; we also set outputs to be safe
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Asif-Orbit
+          # optional: outputs param sometimes controls output filename; include to be explicit
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Upload to Output Branch
+      - name: Debug - show files (verify output)
+        run: |
+          echo "Working dir: $(pwd)"
+          ls -la
+          echo "dist contents:"
+          ls -la dist || true
+
+      - name: Deploy dist to output branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: output
