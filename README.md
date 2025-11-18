@@ -59,5 +59,5 @@ I don’t just fix bugs — I collect them like Pokémon 😄
 
 🐍 Contribution Snake Animation
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Asif-Orbit/Asif-Orbit/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/Asif-Orbit/Asif-Orbit/output/snake.svg" alt="Snake animation" />
 </p>
