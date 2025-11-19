@@ -48,7 +48,7 @@ I enjoy working with React, exploring backend logic with Node.js, and creating f
 
 ## 🌐 Connect With Me  
 <p align="left">
-  <a href="https://www.linkedin.com/in/asif-uestc/" target="_blank">
+  <a href="https://www.linkedin.com/in/khan-md-asif/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
   <a href="mailto:asifsweuestc@gmail.com" target="_blank">
