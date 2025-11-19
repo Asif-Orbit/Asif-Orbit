@@ -75,7 +75,8 @@ I enjoy working with React, exploring backend logic with Node.js, and creating f
 
 ## 🐍 Contribution Snake  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Asif-Orbit/Asif-Orbit/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Asif-Orbit/Asif-Orbit/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
 </p>
+
 
 ---
